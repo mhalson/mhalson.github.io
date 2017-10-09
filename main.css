@@ -70,27 +70,26 @@ section {
 
 #contact {
     background-color:rgb(56,56,56);
-    height: 82vh;
     color: rgb(245,245,245);
     margin-bottom: 0rem;
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 
 #interests  {
-    height: 90rem;
+    height: 120vh;
 }
 
 #skills {
-    height: 70rem;
+    height: 100vh;
 }
 
 #education  {
-    height: 130rem;
+    height: 150vh;
     flex-wrap: wrap;
 }
 
 #profile  {
-    height: 70rem;
+    height: 100vh;
     background-color: rgb(245,245,245);
 }
 
@@ -103,4 +102,17 @@ section {
     background-image: url(snow.jpeg);
     border-top 2rem;
     border-bottom 10rem;
-    
+}
+
+@media only screen and (max-width: 768px)   {
+    #skills{ height:120vh;}
+    .award-year {float:left}
+}
+
+@media only screen and (max-width: 414px)   {
+    #profile{ height: 120vh;}
+    .img-circle  {float:left}
+    .education-years    {float:left}
+    #education  {height: 200vh;}
+    .award-year {float:left}
+}
