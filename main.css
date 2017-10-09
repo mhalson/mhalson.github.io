@@ -86,6 +86,7 @@ section {
 
 #education  {
     height: 130rem;
+    flex-wrap: wrap;
 }
 
 #profile  {
