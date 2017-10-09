@@ -33,6 +33,10 @@
     color: rgb(67,56,56);
 }
 
+.award-year {
+    float:right;
+}
+
 .flag   {
     margin: 0.3rem;
 }
@@ -106,13 +110,16 @@ section {
 
 @media only screen and (max-width: 768px)   {
     #skills{ height:120vh;}
+    #profole    {height:120vh;}
     .award-year {float:left}
+    .img-circle {float:left}
 }
 
-@media only screen and (max-width: 414px)   {
+@media only screen and (max-width: 480px)   {
     #profile{ height: 120vh;}
     .img-circle  {float:left}
     .education-years    {float:left}
     #education  {height: 200vh;}
     .award-year {float:left}
+    .education-years    {padding-top:0rem;}
 }
