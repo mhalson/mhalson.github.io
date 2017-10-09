@@ -1,0 +1,105 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+.alignleft  {
+    float: left;
+}
+
+.alignright {
+    float:right;
+}
+
+.sectionheading {
+    padding-top: 2rem;
+    color: rgb(128,0,0);
+}
+
+.listheading    {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    color: rgb(128,0,0);
+}
+
+.education-years    {
+    padding-top: 2rem;
+    color: rgb(67,56,56);
+}
+
+.education-text {
+    padding-right: 6rem;
+    color: rgb(67,56,56);
+}
+
+.flag   {
+    margin: 0.3rem;
+}
+
+body   {
+    font-family: "Tahoma", "Geneva", sans-serif;
+    background-color: rgb(245,245,245);
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 25px solid;
+    border-color: rgb(128,0,0);
+    margin-top: 4rem;
+}
+
+.secondinterest {
+    margin-top: 4.5rem;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+#contact {
+    background-color:rgb(56,56,56);
+    height: 82vh;
+    color: rgb(245,245,245);
+    margin-bottom: 0rem;
+    padding-top: 2rem;
+}
+
+#interests  {
+    height: 60rem;
+}
+
+#skills {
+    height: 50rem;
+}
+
+#education  {
+    height: 70rem;
+}
+
+#profile  {
+    height: 50rem;
+    background-color: rgb(245,245,245);
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+    text-shadow: 0.25px, 0.25px, 0.25px #000000;
+    background-image: url(snow.jpeg);
+    border-top 2rem;
+    border-bottom 10rem;
+    
