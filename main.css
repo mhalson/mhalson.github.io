@@ -108,8 +108,10 @@ section {
     border-bottom 10rem;
 }
 
-@media only screen and (max-width: 800px)   {
+@media only screen and (max-width: 1200px)   {
     .award-year {float:left;}
+    .img-circle {float:left;}
+    #skills {height: 130vh;}
 }
 
 @media only screen and (max-width: 500px)   {
