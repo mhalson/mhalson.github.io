@@ -81,15 +81,15 @@ section {
 }
 
 #skills {
-    height: 50rem;
-}
-
-#education  {
     height: 70rem;
 }
 
+#education  {
+    height: 110rem;
+}
+
 #profile  {
-    height: 50rem;
+    height: 70rem;
     background-color: rgb(245,245,245);
 }
 
