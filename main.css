@@ -110,9 +110,11 @@ section {
 
 @media only screen and (max-width: 414px)   {
     #profile{ height: 200vh;}
-    .img-circle  {float:left}
-    .education-years    {float:left}
-    #education  {height: 400vh;}
-    .award-year {float:left}
+    .img-circle  {float:left;}
+    .education-years    {float:left;}
+    #education  {height: 350vh;}
+    .award-year {float:left;}
     .education-years    {padding-top:0rem;}
+    #skills {height: 150vh;}
+    #interests  {height: 300vh;}
 }
