@@ -108,14 +108,7 @@ section {
     border-bottom 10rem;
 }
 
-@media only screen and (max-width: 768px)   {
-    #skills{ height:120vh;}
-    #profole    {height:120vh;}
-    .award-year {float:left}
-    .img-circle {float:left}
-}
-
-@media only screen and (max-width: 480px)   {
+@media only screen and (max-width: 414px)   {
     #profile{ height: 220vh;}
     .img-circle  {float:left}
     .education-years    {float:left}
