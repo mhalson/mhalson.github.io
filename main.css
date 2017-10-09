@@ -115,8 +115,8 @@ section {
     .img-circle {float:left}
 }
 
-@media only screen and (max-width: 400px)   {
-    #profile{ height: 140vh;}
+@media only screen and (max-width: 480px)   {
+    #profile{ height: 220vh;}
     .img-circle  {float:left}
     .education-years    {float:left}
     #education  {height: 200vh;}
