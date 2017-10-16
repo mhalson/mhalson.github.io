@@ -134,5 +134,5 @@ section {
 }
 
 @media only screen and ()max-width: 400px)  {
-    #profile {height: auto;}
+    #profile {height: 150vh;}
 }
