@@ -132,3 +132,7 @@ section {
     #education  {height: 205vh;}
     #interests  {height: 130vh;}
 }
+
+@media only screen and ()max-width: 400px)  {
+    #profile {height: auto;}
+}
