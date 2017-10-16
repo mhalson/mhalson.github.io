@@ -108,19 +108,27 @@ section {
     border-bottom 10rem;
 }
 
-@media only screen and (max-width: 1200px)   {
+@media only screen and (max-width: 1024px)   {
     .award-year {float:left;}
     .img-circle {float:left;}
-    #skills {height: 130vh;}
+    #skills {height:   130vh;}
+    .p   {font-size: 0.5rem;}
 }
 
-@media only screen and (max-width: 500px)   {
-    #profile{ height: 200vh;}
-    .img-circle  {float:left;}
+@media only screen and (max-width: 520px)   {
+    #profile{ height: 105vh;}
+    .img-circle  {vertical-align: middle;
+                    height: 150px;
+                    padding-top 0rem;}
     .education-years    {float:left;}
-    #education  {height: 340vh;}
+    #education  {height: 175vh;}
     .award-year {float:left;}
     .education-years    {padding-top:0rem;}
-    #skills {height: 170vh;}
-    #interests  {height: 200vh;}
+    #skills {height: 130vh;}
+    #interests  {height: 110vh;}
+}
+
+@media only screen and (max-width: 470px)   {
+    #education  {height: 205vh;}
+    #interests  {height: 130vh;}
 }
