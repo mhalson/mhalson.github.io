@@ -135,5 +135,7 @@ section {
 
 @media only screen and (max-width: 400px)  {
     #profile {height: 150vh;}
-    #education {height: 350vh;}
+    #education {height: 360vh;}
+    #skills {height: 185vh;}
+    #interests  {height: 210vh;}
 }
