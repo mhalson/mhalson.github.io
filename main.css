@@ -101,9 +101,11 @@ section {
     display: flex;
     align-items: center;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     text-shadow: 0.25px, 0.25px, 0.25px #000000;
     background-image: url(snow.jpeg);
+    background-repeat: no-repeat;
     border-top 2rem;
     border-bottom 10rem;
 }
