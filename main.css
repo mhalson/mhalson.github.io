@@ -138,4 +138,5 @@ section {
     #education {height: 360vh;}
     #skills {height: 185vh;}
     #interests  {height: 210vh;}
+    .welcome-text   {font-size: 1.3em;}
 }
