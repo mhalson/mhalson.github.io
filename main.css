@@ -72,6 +72,10 @@ section {
   padding-bottom: 5rem;
 }
 
+#experience {
+    margin-bottom:6rem;
+}
+
 #contact {
     background-color:rgb(56,56,56);
     color: rgb(245,245,245);
@@ -121,7 +125,9 @@ section {
     #profile{ height: 105vh;}
     .img-circle  {vertical-align: middle;
                     height: 150px;
-                    padding-top 0rem;}
+                    padding-top 0rem;
+                    border: 20px solid;
+                    border-color: rgb(128,0,0);}
     .education-years    {float:left;}
     #education  {height: 175vh;}
     .award-year {float:left;}
